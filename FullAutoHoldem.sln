@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SRC", "SRC", "{EA67BBF9-B70B-4388-94B0-874EA3655A16}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Player", "SRC\player\Player.csproj", "{604BEE1C-9FCA-4F24-B448-A3015A75B45A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Updater", "SRC\updater\Updater.csproj", "{EC837800-D4A5-4420-B554-D3D1BA774AD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{604BEE1C-9FCA-4F24-B448-A3015A75B45A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{604BEE1C-9FCA-4F24-B448-A3015A75B45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{604BEE1C-9FCA-4F24-B448-A3015A75B45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{604BEE1C-9FCA-4F24-B448-A3015A75B45A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC837800-D4A5-4420-B554-D3D1BA774AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC837800-D4A5-4420-B554-D3D1BA774AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC837800-D4A5-4420-B554-D3D1BA774AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC837800-D4A5-4420-B554-D3D1BA774AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{604BEE1C-9FCA-4F24-B448-A3015A75B45A} = {EA67BBF9-B70B-4388-94B0-874EA3655A16}
+		{EC837800-D4A5-4420-B554-D3D1BA774AD2} = {EA67BBF9-B70B-4388-94B0-874EA3655A16}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21CDB764-EECD-42DA-82BA-804024BEAF2F}
+	EndGlobalSection
+EndGlobal
